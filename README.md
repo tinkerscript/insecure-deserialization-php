@@ -6,6 +6,7 @@ cd insecure-deserialization-php
 docker build -t insec-d-php .
 docker run -p 8088:80 insec-d-php
 ```
+Visit http://localhost:8088/
 ## Payloads
 Safe:
 ```
