@@ -34,7 +34,7 @@ if (isset($_POST["data"])) {
 
 Example:
 <pre>O:4:"User":2:{s:4:"name";s:4:"John";s:8:"is_admin";b:1;}</pre><br/>
-<form action="/insec-d.php" method="POST">
+<form action="/" method="POST">
         <textarea name="data" rows="10" cols="50"><?php echo $_POST["data"] ?? ""; ?></textarea><br/>
         <button>Submit</button>
 </form>
